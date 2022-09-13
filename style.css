@@ -62,4 +62,9 @@ nav li a:hover {
     max-width:30%;
     height:auto; 
     margin-top:20px;
+    float:left;
+}
+p {
+    margin-bottom:20px;
+
 }
