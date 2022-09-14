@@ -57,14 +57,41 @@ nav li a:hover {
     
 
 }
+
+.flex-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap
+    justify-content:space-around;
+}
+
+.flex-container h2 {
+    font-size:50px;
+
+}
+
 .me {
     border-radius:40%;
-    max-width:30%;
+    max-width:80%;
     height:auto; 
     margin-top:20px;
     float:left;
+    flex-shrink:1;
+    padding:20px;
+    
 }
-p {
+
+.flex-container p {
     margin-bottom:20px;
+    margin-right:20px;
+    flex:wrap;
 
 }
+
+/* margin and font size are just extra to give space on page currently*/
+.portfolio h2{
+    font-size:100px;
+    margin-top:250px;
+}
+
+
